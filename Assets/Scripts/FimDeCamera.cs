@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
 
-public class FimDeCamera : MonoBehaviour
-{
+public class FimDeCamera : MonoBehaviour {
 
-    public void CameraAcabou()
-    {
+    public void CameraAcabou() {
         CutSceneController.instancia.ProximaCamera();
     }
 }
